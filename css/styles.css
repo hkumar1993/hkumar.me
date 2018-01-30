@@ -1,8 +1,3 @@
 .container{
   display: grid;
 }
-
-.nav{
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-}
