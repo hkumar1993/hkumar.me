@@ -9,6 +9,10 @@
 .secondary-text-color  { color: #757575; }
 .divider-color         { border-color: #BDBDBD; }
 
+body{
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
 
 .nav{
   width: 100vw;
@@ -17,25 +21,86 @@
   color: #FFFFFF; 
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px;
   box-sizing: border-box;
+  box-shadow: 2px 0px 5px #212121;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.nav span{
+  font-weight: inherit;
 }
 
 .nav ul{
   display: none;
 }
 
+.triple-dot{
+  display: flex;
+  font-size: 10px;
+  font-weight: 700;
+  flex-direction: column;
+  cursor: pointer;
+  transition: .1s ease-in-out;  
+}
+
+.triple-dot span{
+  height: 10px;
+}
+
+.triple-dot:hover{
+  transform: rotate(180deg);
+}
+
 .hidden-nav{
   position: absolute;
-  height: 100vh;
   width: 50vw;
-  top: 50px;
+  display: flex;
+  flex-direction: column;
+  top: -100vh;
   right: -51vw;
   transition: 0.3s ease-in-out;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  padding: 10px 0;
+  border-radius: 0 0 0 5px;
 }
 
 .hidden-nav.show{
-  transform: translateX(-51vw)
+  transform: translate(-51vw, 100vh)
+}
+
+.hidden-nav ul{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hidden-nav li{
+  height: 30px;
+  padding: 8px 10px 8px 10px;
+  font-size: 14px;
+  transition: 0.3s ease;
+  box-sizing: border-box;
+}
+
+.hidden-nav li:hover{
+  background: rgba(117,117,117, 0.3)
+}
+
+.hidden-nav h1{
+  font-size: 20px;
+  height: 50px;
+  padding: calc((50px - 20px)/2) 5px;
+  box-sizing: border-box;
+  align-self: center;
+  width: 100%;
+  margin-bottom: 10px;
+  box-shadow: 2px 0px 5px #212121;
+  background: #0288D1;
+  color: #FFFFFF;
 }
 
 .dark-shroud{
@@ -53,14 +118,36 @@
 }
 
 .container{
-  overflow: hidden;
 }
 
-@media (min-width: 481px){
+@media (min-width: 768px){
   .triple-dot{
     display: none;
   }
   .hidden-nav{
     display: none;
+  }
+  .nav ul{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .nav ul li{
+    display: flex;
+    height: 100%;
+    font-size: 16px;
+    /* color: #FFFFFF; */
+    align-self: center;
+    padding: 0 10px;
+    transition: 0.1s;
+  }
+
+  .nav ul li:hover{
+    background: #0288D1;
+  }
+
+  .nav a{
+    align-self: center;
   }
 }
