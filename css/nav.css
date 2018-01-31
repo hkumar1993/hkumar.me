@@ -12,12 +12,13 @@
 body{
   font-family: 'Roboto', sans-serif;
   overflow-x: hidden;
+  background: #eee8dc;
 }
 
 .nav{
   width: 100vw;
   height: 50px;
-  background: #03A9F4;
+  background: #795548;
   color: #FFFFFF; 
   display: flex;
   justify-content: space-between;
@@ -27,13 +28,17 @@ body{
   box-shadow: 2px 0px 5px #212121;
   font-size: 20px;
   font-weight: 400;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 
 .nav span{
   font-weight: inherit;
 }
 
-.nav ul{
+.nav div{
   display: none;
 }
 
@@ -55,7 +60,7 @@ body{
 }
 
 .hidden-nav{
-  position: absolute;
+  position: fixed;
   width: 50vw;
   display: flex;
   flex-direction: column;
@@ -66,27 +71,29 @@ body{
   box-sizing: border-box;
   padding: 10px 0;
   border-radius: 0 0 0 5px;
+  z-index: 20;
 }
 
 .hidden-nav.show{
   transform: translate(-51vw, 100vh)
 }
 
-.hidden-nav ul{
-  width: 100%;
+.hidden-nav{
+  /* width: 100%; */
   display: flex;
   flex-direction: column;
 }
 
-.hidden-nav li{
+.hidden-nav a{
   height: 30px;
   padding: 8px 10px 8px 10px;
   font-size: 14px;
   transition: 0.3s ease;
   box-sizing: border-box;
+  color: #212121;
 }
 
-.hidden-nav li:hover{
+.hidden-nav a:hover{
   background: rgba(117,117,117, 0.3)
 }
 
@@ -104,7 +111,7 @@ body{
 }
 
 .dark-shroud{
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   height: 100vh;
@@ -117,8 +124,7 @@ body{
   display: none;
 }
 
-.container{
-}
+
 
 @media (min-width: 768px){
   .triple-dot{
@@ -127,23 +133,24 @@ body{
   .hidden-nav{
     display: none;
   }
-  .nav ul{
+  .nav div{
     height: 50px;
     display: flex;
     justify-content: flex-end;
   }
 
-  .nav ul li{
+  .nav div a{
     display: flex;
     height: 100%;
     font-size: 16px;
     /* color: #FFFFFF; */
     align-self: center;
-    padding: 0 10px;
+    padding: 17px 10px;
     transition: 0.1s;
+    box-sizing: border-box;
   }
 
-  .nav ul li:hover{
+  .nav div a:hover{
     background: #0288D1;
   }
 
