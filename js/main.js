@@ -5,7 +5,14 @@ document.addEventListener('DOMContentLoaded', function(){
     const tripleDot = document.querySelector('.triple-dot')
     const hiddenNav = document.querySelector('.hidden-nav')
     const darkShroud = document.querySelector('.dark-shroud')
-    console.log(hiddenNav)
+    const images = Array.from(document.querySelectorAll('img'))
+
+    images.forEach( img => {
+        img.addEventListener("load", function(){
+            img.classList.add('fadeIn')
+        })
+    });
+
 
     function toggleNav() {
         console.log('clicked')
