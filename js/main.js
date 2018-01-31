@@ -21,4 +21,5 @@ document.addEventListener('DOMContentLoaded', function(){
 
     tripleDot.addEventListener('click', toggleNav);
     darkShroud.addEventListener('click', toggleNav);
+    hiddenNav.addEventListener('click', toggleNav);
 })
