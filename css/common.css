@@ -22,8 +22,13 @@
 
 img{
     opacity: 0;
+    transition: 0.5s;
 }
 
 img.fadeIn{
     opacity: 1;
+}
+
+.container > div{
+    overflow-y: hidden;
 }
