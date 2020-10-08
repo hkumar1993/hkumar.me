@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/hkumar.me/static/css/main.a9b4ce7e.chunk.css",
+    "main.js": "/hkumar.me/static/js/main.23e6851b.chunk.js",
+    "main.js.map": "/hkumar.me/static/js/main.23e6851b.chunk.js.map",
+    "runtime-main.js": "/hkumar.me/static/js/runtime-main.8cd63b03.js",
+    "runtime-main.js.map": "/hkumar.me/static/js/runtime-main.8cd63b03.js.map",
+    "static/css/2.079934f4.chunk.css": "/hkumar.me/static/css/2.079934f4.chunk.css",
+    "static/js/2.b4ab48f1.chunk.js": "/hkumar.me/static/js/2.b4ab48f1.chunk.js",
+    "static/js/2.b4ab48f1.chunk.js.map": "/hkumar.me/static/js/2.b4ab48f1.chunk.js.map",
+    "index.html": "/hkumar.me/index.html",
+    "precache-manifest.5f8b07460f6181c8932d7b385661d6da.js": "/hkumar.me/precache-manifest.5f8b07460f6181c8932d7b385661d6da.js",
+    "service-worker.js": "/hkumar.me/service-worker.js",
+    "static/css/2.079934f4.chunk.css.map": "/hkumar.me/static/css/2.079934f4.chunk.css.map",
+    "static/css/main.a9b4ce7e.chunk.css.map": "/hkumar.me/static/css/main.a9b4ce7e.chunk.css.map",
+    "static/js/2.b4ab48f1.chunk.js.LICENSE.txt": "/hkumar.me/static/js/2.b4ab48f1.chunk.js.LICENSE.txt",
+    "static/media/basejump.png": "/hkumar.me/static/media/basejump.efa77fc9.png",
+    "static/media/all.css": "/hkumar.me/static/media/fa-solid-900.8e39d5d5.svg",
+    "static/media/gitready.png": "/hkumar.me/static/media/gitready.9b9a2f21.png",
+    "static/media/logo.png": "/hkumar.me/static/media/logo.a15c92e0.png",
+    "static/media/main.scss": "/hkumar.me/static/media/menu.3b3123eb.svg",
+    "static/media/resume.pdf": "/hkumar.me/static/media/resume.f6b27df4.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8cd63b03.js",
+    "static/css/2.079934f4.chunk.css",
+    "static/js/2.b4ab48f1.chunk.js",
+    "static/css/main.a9b4ce7e.chunk.css",
+    "static/js/main.23e6851b.chunk.js"
+  ]
+}
