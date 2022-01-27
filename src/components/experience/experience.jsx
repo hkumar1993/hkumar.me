@@ -8,11 +8,27 @@ const Experience = () => {
                 <h2>Experience</h2>
                 <ul className="experiences-list">
                     <Job
+                        company="Google"
+                        role="Software Engineer"
+                        location="San Francisco, CA"
+                        startTime="Aug 2021"
+                        defaultOpen
+                    >
+                        <ul>
+                            <li>
+                                Working at Google Cloud - Looker
+                            </li>
+                            <li>
+                                Primarily worked as a Front End Engineer working with React and Redux with TypeScript
+                            </li>
+                        </ul>
+                    </Job>
+                    <Job
                         company="Forio"
                         role="Software Engineer"
                         location="San Francisco, CA"
                         startTime="Feb 2018"
-                        defaultOpen
+                        endTime="Jul 2021"
                     >
                         <ul>
                             <li>
