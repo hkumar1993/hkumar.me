@@ -6,7 +6,7 @@ import resume from '../../static/pdf/resume.pdf';
 const noop = () => {};
 
 const Header = () => {
-    const [expanded, toggleExpanded, setExpanded] = useToggle(false);
+    const [expanded, toggleExpanded, ] = useToggle(false);
     const [isMobile, setMobile] = useState(false);
 
     useEffect(() => {

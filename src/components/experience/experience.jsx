@@ -19,7 +19,7 @@ const Experience = () => {
                                 Working at Google Cloud - Looker
                             </li>
                             <li>
-                                Primarily worked as a Front End Engineer working with React and Redux with TypeScript
+                                Primarily working as a Front End Engineer working with React and Redux with TypeScript
                             </li>
                         </ul>
                     </Job>
