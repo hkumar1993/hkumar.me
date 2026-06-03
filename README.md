@@ -1,5 +1,9 @@
 # Harsh Kumar's Personal Portfolio Website
 
+## Version 4 - June 2026
+
+Claude Code Supremacy! In the age of AI why bother with a fancy hand made React project. Reverted back to a barebones HTML project all powered by Claude. This page brings in what I look at daily, the terminal. Ubuntu was my first Linux distro back in mid 2010's, and I have used the ubuntu terminal colors ever since, even when working primarily on Macs for the rest of my life.
+
 ## Version 3 - October 2020
 
 This version of my portfolio is the first documented version of this Portfolio. I moved this project from being a basic HTML / CSS site to a full React powered app.
